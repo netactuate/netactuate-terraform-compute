@@ -35,6 +35,14 @@ winget install Hashicorp.Terraform
 
 Or use WSL2 with the Linux instructions above.
 
+### NetActuate Terraform Provider
+
+The NetActuate Terraform provider is installed automatically when you run `terraform init`.
+It is downloaded from the Terraform Registry and shared across all modules on your system.
+Each module in this collection is an independent, self-contained project with its own
+`main.tf`, `variables.tf`, and `outputs.tf` — you can use any module on its own without
+the others.
+
 ## Configuration
 
 ### Step 1: Copy the example tfvars
